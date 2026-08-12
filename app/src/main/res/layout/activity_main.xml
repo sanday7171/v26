@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ling Offline Automation V2.6 Direct Frame"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: idle"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"/>
+
+        <Button
+            android:id="@+id/btnAccessibility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. BUKA ACCESSIBILITY SETTINGS"/>
+
+        <Button
+            android:id="@+id/btnCapture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. START SCREEN CAPTURE"/>
+
+        <Button
+            android:id="@+id/btnEnableAuto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. AUTO EXECUTION: OFF"/>
+
+        <Button
+            android:id="@+id/btnTestGesture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST TAP CENTER"/>
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOP CAPTURE"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="V2.6 Direct Frame mencatat CAPTURE, DETECTOR, STABILITY, ROUTE, dan GESTURE ke Logcat. Capture akan menyesuaikan ukuran saat orientasi berubah. Auto execution harus diaktifkan manual."
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+</ScrollView>
